@@ -1,0 +1,65 @@
+/* addUser.css */
+
+/* Overall container for the form */
+.add-user-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* Title of the form */
+.add-user-container h2 {
+    text-align: center;
+    color: #0051ff;
+    margin-bottom: 20px;
+}
+
+/* Input fields for form elements */
+.add-user-container input[type="text"],
+.add-user-container input[type="email"],
+.add-user-container input[type="password"],
+.add-user-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Error message */
+.add-user-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Submit button */
+.add-user-container button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.add-user-container button:hover {
+    background-color: #cc5500;
+}
+
+/* Optional: You can add a success message style */
+.add-user-container .success-message {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}

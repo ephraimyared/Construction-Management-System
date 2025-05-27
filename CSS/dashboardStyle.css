@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url(Admin.jpg);
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    grid-template-rows: repeat(2, 1fr); /* Creates 2 equal rows */
+    grid-gap: 20px; /* Adds space between items */
+    padding: 20px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.role-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Optional: Adjust the width of each item */
+}
+
+.role-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #6b89a9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7093b8;
+}
+
+.logout-link {
+    margin-top: 20px;
+}
+
+.logout-link a {
+    color: #355b83;
+    text-decoration: none;
+}
+
+.logout-link a:hover {
+    text-decoration: underline;
+}
